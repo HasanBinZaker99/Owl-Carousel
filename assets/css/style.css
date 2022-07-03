@@ -1,0 +1,91 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}
+.heading-content h4{
+    color:#333;
+    margin-top:40px;
+    margin-bottom: 4px;
+}
+.heading-content p{
+    color:#333;
+    font-size:12px;
+    margin-top:12px;
+}
+.heading-border{
+    width:50px;
+    height:4px;
+    position:relative;
+    background: #f1f1f1;
+}
+.heading-border:after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    background: #13ADF3;
+    width:40px;
+    height:4px;
+}
+
+.owl-carousel .owl-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.owl-nav{
+    position:absolute;
+    top:-50px;
+    right:0;
+    display:inline-flex;
+}
+.owl-prev,.owl-next{
+    padding: 6px 10px;
+    background: #f1eef0;
+    color:rgb(255, 217, 0);
+}
+.navActive{
+    background:#f313ce;
+}
+.single-item h3{
+    color:#333;
+    font-weight:bold;
+    font-size:20px;
+}
+.single-item h3 span{
+    display:flex;
+    font-size:18px;
+    margin-top:7px;
+    color:#999;
+}
+.single-item p{
+    color:#333;
+    font-size:12px;
+    font-weight:normal;
+    line-height:1.8;
+    text-align: center;
+    text-align:justify;
+    hyphens:auto;
+}
